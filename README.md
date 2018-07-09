@@ -10,3 +10,5 @@ Adding a new Ansible role is done with:
     frankentree add -u <role_url> <path>/<to>/<role>/<folder>/<role_name>
 
 The path to the role should somehow describe the category of the role in question (e.g. system-tool, web-server, etc). If adding a 3rd-party role, it's best to fork it into the freckles-io-external organisation, then add it to this repository. That way changes can be pushed upstream if necessary.
+
+The role_name should always be the full role name as it would be used by the ansible-galaxy tool (in the formt '<author>.<role_name>'.
